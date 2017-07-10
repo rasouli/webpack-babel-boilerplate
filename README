@@ -5,8 +5,8 @@ while some unused dependency are being carried in the package.json file (just in
 **How To Use**
 after cloning the project with git do the following:
 
-cd /path/to/webpack-babel-boilerplate
-npm install
+> $ cd /path/to/webpack-babel-boilerplate
+> $ npm install
 
 to bundle the app:
 > $ npm run bundle
