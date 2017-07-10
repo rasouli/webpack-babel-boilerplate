@@ -1,0 +1,21 @@
+**Webpack Babel Boilerplate**
+This simple boilerplate project tries to keep it really simple to jumpstart a webpack or react project while taking care of most common vital webpack configuration.
+while some unused dependency are being carried in the package.json file (just in case one might need them?), one can simply remove them from there.
+
+**How To Use**
+after cloning the project with git do the following:
+
+cd /path/to/webpack-babel-boilerplate
+npm install
+
+to bundle the app:
+> $ npm run bundle
+
+to serve the content in the dist/www/ run:
+> $npm run server
+
+and then navigate to http://localhost:8080/
+
+**Note**: by default the wepback is configured to bundle the code for both the server side and the browser side. you can change this behavior by choosing whatever environment is right for you by modifying the array of configuration that is being exported in the *webpack.config.js*. for example if front is the case you are working on it's enough to change *webpack.config.js* to export the following:
+
+> module.exports = frontConfig;

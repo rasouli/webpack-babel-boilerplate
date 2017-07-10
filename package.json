@@ -1,0 +1,60 @@
+{
+    "name": "webpack-babel-boilerplate",
+    "version": "0.0.1",
+    "description": "a webpack 2 babel boilerplate",
+    "main": "app.js",
+    "scripts": {
+        "bundle": "./node_modules/webpack/bin/webpack.js",
+        "server": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base dist/www/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/reezaras/webpack-babel-boilerplate"
+    },
+    "keywords": [
+        "webpack",
+        "babel",
+        "boilerplate",
+        "react",
+        "redux",
+        "redux-saga"
+    ],
+    "author": "Reza Rasouli (@reezaras)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/reezaras/webpack-babel-boilerplate/issues"
+    },
+    "homepage": "https://github.com/reezaras/webpack-babel-boilerplate#readme",
+    "devDependencies": {
+        "ava": "^0.19.1",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^6.4.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "babel-register": "^6.24.1",
+        "webpack": "^2.4.1",
+        "webpack-dev-server": "^2.4.2",
+        "webpack-node-externals": "^1.5.4"
+    },
+    "dependencies": {
+        "babel-polyfill": "^6.23.0",
+        "babel-preset-react": "^6.24.1",
+        "dotenv": "^4.0.0",
+        "express": "^4.15.3",
+        "jscs": "^3.0.7",
+        "material-ui": "^0.18.5",
+        "moment": "^2.18.1",
+        "ramda": "^0.23.0",
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "react-redux": "^5.0.5",
+        "react-tap-event-plugin": "^2.0.1",
+        "redux": "^3.7.1",
+        "redux-logger": "^3.0.6",
+        "redux-saga": "^0.15.4",
+        "reduxsauce": "^0.5.0",
+        "seamless-immutable": "^7.1.2",
+        "socket.io": "^2.0.3",
+        "socket.io-client": "^2.0.3"
+    }
+}
