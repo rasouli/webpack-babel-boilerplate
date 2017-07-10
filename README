@@ -12,7 +12,7 @@ to bundle the app:
 > $ npm run bundle
 
 to serve the content in the dist/www/ run:
-> $npm run server
+> $ npm run server
 
 and then navigate to http://localhost:8080/
 
